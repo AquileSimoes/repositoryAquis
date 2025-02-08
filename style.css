@@ -1,0 +1,51 @@
+@charset "UTF-8"
+
+/*
+#97A0E6
+#7F09E6
+#09AEE6
+#0923E6
+#3709E6
+#0968E6
+*/
+:root{
+    --cor0: #97A0E6;
+    --cor1: #09AEE6;
+    --cor2: #0968E6;
+    --cor3: #7F09E6;
+    --cor4: #0923E6;
+    --cor5: #3709E6;
+
+    --fonte-padrão: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --fonte-destaque: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonte-importante: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #97A0E6;
+    font-family: (--fonte-padrão);
+}
+header{
+    background-color: #09AEE6;
+    
+}
+header > h1{
+    color: black;
+   font-family: var(--fonte-importante);
+   margin-bottom: 0%;
+}
+header > p{
+    color: black;
+    margin-top: 0%;
+}
+nav{
+    background-color: #0923E6;
+}
+main > h1{ 
+   font-family: var(--fonte-padrão);
+
+}
+
+main > h2{
+   font-family: var(--fonte-padrão);
+
+}
